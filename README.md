@@ -21,7 +21,19 @@ The track records process evidence and artifact evidence separately:
 - **Artifacts:** source traceability, FHIR conformance, CQL translation and
   execution, clinical coherence, and cross-implementation agreement.
 
-## Seed use case
+## Use cases
+
+| Use case | Participant inputs |
+| --- | --- |
+| Older-adult fall risk (STEADI) | [Sources](sources/manifest.yaml), [fixtures](test-bundles/README.md), and the overview below |
+| Breast cancer: neoadjuvant TNBC review | [Overview](use-cases/breast-cancer/README.md), [sources](use-cases/breast-cancer/sources/README.md), and [fixtures](use-cases/breast-cancer/test-bundles/README.md) |
+
+Each use case has its own clinical scope and assertion contract. The breast
+cancer case follows the same source-to-artifact exercise, using diagnostic
+Observations as inputs. The STEADI Questionnaire and SDC extraction contract
+apply to the fall-risk case.
+
+## Seed use case: older-adult fall risk
 
 For a community-dwelling adult age 65 years or older seen in ambulatory care:
 

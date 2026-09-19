@@ -23,3 +23,19 @@ content remain link-only and are not copied into this repository.
 Nothing in this repository is clinical advice or production-ready clinical
 decision support. All derived clinical content requires independent clinical,
 terminology, legal, and implementation review.
+
+## Breast cancer source corpus
+
+The additional material under `use-cases/breast-cancer/sources/` has its own
+manifest and extraction notes. NCI-authored text is reused with attribution
+under the [NCI reuse policy](https://www.cancer.gov/policies/copyright-reuse).
+The text extractions exclude images and third-party staging tables; they are
+static participant inputs and are not maintained NCI publications. ASCO
+guidelines and their update remain link-only. Their online accessibility does
+not transfer their copyright to this repository's MIT license.
+
+LOINC codes and names are copyright Regenstrief Institute, Inc., and the LOINC
+Committee, and remain subject to the [LOINC license](https://loinc.org/license/).
+Other terminology and standards retain their original rights. The local
+fixture vocabulary is track-authored and does not reproduce a complete AJCC
+staging manual or imply certification by a standards organization.
