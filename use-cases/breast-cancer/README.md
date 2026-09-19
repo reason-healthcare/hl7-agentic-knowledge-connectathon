@@ -5,10 +5,9 @@ example: a traceable source corpus, synthetic FHIR R4 patient bundles, and
 engine-neutral expected results. Participants turn the source material into
 reviewable evidence, structured recommendations, and executable knowledge.
 
-The starting point is the DevDays 2024 `OncologyGuidelineExample`, specifically
-its triple-negative breast cancer (TNBC) neoadjuvant pathway. This package is a
-new set of participant inputs. Generated CQL, ELM, and treatment pathways are
-participant deliverables.
+The case focuses on triple-negative breast cancer (TNBC) neoadjuvant guidance.
+This package supplies participant inputs. Generated CQL, ELM, and treatment
+pathways are participant deliverables.
 
 ## Clinical question
 
@@ -125,23 +124,6 @@ implementations. Record exact tool, terminology, dependency, and artifact
 versions, along with authoring time, review effort, and revisions. A fixture
 integrity check or successful FHIR validation alone does not demonstrate CQL
 execution or clinical approval.
-
-## Relationship to the DevDays example
-
-The inspected local source was `devdays-2024/OncologyGuidelineExample/`:
-
-- `input/fsh/recommendation-definitions.fsh` describes the clinical node-positive
-  **or** T1c-and-higher population.
-- `input/cql/GuidelineLogic.cql` implements a size/receptor shortcut, omits the
-  node-positive route, and defines a breast-cancer check that is not used in its
-  final applicability expression.
-- The original test labels and assertions contain inconsistencies in receptor
-  status and the size threshold. The new fixtures use explicit clinical data
-  and per-case explanations.
-
-The original AC-followed-by-T medication orders are not part of this input
-package. Drug selection and ordering would require a separately reviewed,
-current treatment protocol.
 
 All patients are synthetic. This material is for Connectathon testing and
 education; derived clinical content requires independent clinical review.
