@@ -3,7 +3,9 @@
 The MIT license applies to the original overview, slide deck, synthetic test
 fixtures, assertions, and other track-authored material in this repository.
 
-The files under `sources/raw/` retain their original terms:
+## STEADI source corpus
+
+The files under `use-cases/steadi/sources/raw/` retain their original terms:
 
 - CDC STEADI PDFs and the CDC injury-economics snapshot are U.S. government
   source material. Third-party images or other credited elements, if any,
@@ -14,7 +16,7 @@ The files under `sources/raw/` retain their original terms:
 - The Pillay et al. systematic-review snapshot is included unchanged under
   Creative Commons Attribution-NonCommercial-NoDerivatives 4.0. Attribution,
   the canonical source URL, and the license URL are recorded in
-  `sources/manifest.yaml`.
+  `use-cases/steadi/sources/manifest.yaml`.
 
 Terminology systems, HL7 implementation guides, upstream publications, quality
 measures, and trademarks retain their original rights. CMS139FHIR and NCQA
@@ -26,7 +28,7 @@ terminology, legal, and implementation review.
 
 ## Breast cancer source corpus
 
-The additional material under `use-cases/breast-cancer/sources/` has its own
+The material under `use-cases/breast-cancer/sources/` has its own
 manifest and extraction notes. NCI-authored text is reused with attribution
 under the [NCI reuse policy](https://www.cancer.gov/policies/copyright-reuse).
 The text extractions exclude images and third-party staging tables; they are

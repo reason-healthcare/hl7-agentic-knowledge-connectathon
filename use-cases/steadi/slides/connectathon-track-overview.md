@@ -111,7 +111,7 @@ The resulting knowledge must remain source-traceable, structurally valid, clinic
 <!--
 [Sources]
 - https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/README.md#participant-task
-- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/test-bundles/README.md
+- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/use-cases/steadi/test-bundles/README.md
 [/Sources]
 -->
 
@@ -222,7 +222,7 @@ Evidence · guideline · assessment · measure · terminology · CQL logic
 - https://hl7.org/fhir/uv/cpg/
 - https://hl7.org/fhir/uv/cql/
 - https://ecqi.healthit.gov/ecqm/fhir-ec/2026/cms0139fhir
-- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/sources/manifest.yaml
+- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/use-cases/steadi/sources/manifest.yaml
 [/Sources]
 -->
 
@@ -325,7 +325,7 @@ Every clinical statement and operational choice must be distinguishable and trac
 <!--
 [Sources]
 - https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/README.md#required-executable-behavior
-- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/test-bundles/README.md
+- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/use-cases/steadi/test-bundles/README.md
 - https://hl7.org/fhir/uv/cql/
 [/Sources]
 -->
@@ -393,7 +393,7 @@ Missing data must remain unknown. It must not silently become a negative screen.
 
 <!--
 [Sources]
-- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/test-bundles/README.md
+- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/use-cases/steadi/test-bundles/README.md
 [/Sources]
 -->
 
@@ -431,7 +431,7 @@ Missing data must remain unknown. It must not silently become a negative screen.
 <!--
 [Sources]
 - https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/README.md#interoperability-test
-- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/test-bundles/README.md
+- https://github.com/reason-healthcare/hl7-agentic-knowledge-connectathon/blob/main/use-cases/steadi/test-bundles/README.md
 - https://confluence.hl7.org/spaces/FHIR/pages/477659466/2026+-+09+Clinical+Reasoning
 [/Sources]
 -->

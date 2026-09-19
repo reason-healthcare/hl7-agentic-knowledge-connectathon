@@ -5,5 +5,5 @@ __pycache__/
 *.pyc
 validator-output/
 test-results/
-slides/rendered/
-slides/*.html
+use-cases/*/slides/rendered/
+use-cases/*/slides/*.html
